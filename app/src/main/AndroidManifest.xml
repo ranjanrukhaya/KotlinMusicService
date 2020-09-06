@@ -18,8 +18,10 @@
         </activity>
 
         <service
-            android:name=".MusicService"
+            android:name=".service.MusicService"
             android:exported="false" />
+
+        <receiver android:name=".service.NotificationActionService" />
     </application>
 
 </manifest>

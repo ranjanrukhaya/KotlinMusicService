@@ -1,4 +1,4 @@
-package com.gaura.kotlinmusicservice
+package com.gaura.kotlinmusicservice.service
 
 import android.app.Service
 import android.content.Intent
