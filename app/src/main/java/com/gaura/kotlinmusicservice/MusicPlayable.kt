@@ -1,6 +1,6 @@
 package com.gaura.kotlinmusicservice
 
-interface Payable {
+interface MusicPlayable {
     fun onTrackPrevious()
     fun onTrackPlay()
     fun onTrackPause()

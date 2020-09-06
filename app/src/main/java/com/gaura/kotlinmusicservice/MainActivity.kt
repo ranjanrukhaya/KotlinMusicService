@@ -14,7 +14,7 @@ import com.gaura.kotlinmusicservice.notification.MusicNotification
 import com.gaura.kotlinmusicservice.service.MusicService
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(), Payable {
+class MainActivity : AppCompatActivity(), MusicPlayable {
 
     lateinit var notificationManager: NotificationManager
 
